@@ -19,4 +19,10 @@ group :development do
   gem 'listen', '~> 3.0.5'
 end
 
+group :test do
+  gem "factory_girl_rails"
+  gem 'database_cleaner'
+  gem 'pry-rails'
+end
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
